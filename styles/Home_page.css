@@ -1,0 +1,109 @@
+body {
+  background-image: url("../images/Indian_train2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; /* Ajout pour enlever la marge par défaut du body */
+  padding: 0; /* Ajout pour enlever le padding par défaut du body */
+}
+
+header {
+  background-color: #333; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  padding: 20px 0; /* Espacement intérieur */
+  text-align: center; /* Centrage du texte */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+#Menu {
+  width: 150px;
+  text-align: center;
+}
+
+.menu-container {
+  position: relative;
+  z-index: 999; /* Valeur de z-index plus grande que celle des images */
+}
+
+#menu {
+  text-align: left; /* Centrer le menu */
+  margin-top: 20px; /* Ajout pour un peu d'espace entre le titre et le menu */
+  margin-left: 50px;
+}
+
+#menu ul {
+  list-style-type: none; /* Enlever les puces de la liste */
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline-block; /* Afficher les éléments du menu en ligne */
+  position: relative; /* Position relative pour le positionnement des sous-menus */
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 20px; /* Ajout pour un peu d'espace autour des liens */
+  font-size: 35px; /* Réduire la taille de la police */
+  background-color: #333; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#menu ul ul {
+  position: absolute;
+  top: 100%; /* Positionner les sous-menus en dessous de leur élément parent */
+  left: 0;
+  background-color: #fff; /* Fond blanc pour les sous-menus */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre légère pour les sous-menus */
+  visibility: hidden;
+  opacity: 0; /* Cacher les sous-menus par défaut */
+  transition: visibility 0s, opacity 0.5s; /* Transition fluide pour le changement de visibilité */
+}
+
+#menu ul li:hover ul {
+  visibility: visible;
+  opacity: 1; /* Afficher les sous-menus au survol */
+}
+
+#menu ul ul li {
+  display: block; /* Afficher les éléments des sous-menus en bloc */
+}
+
+#menu ul ul li a {
+  padding: 10px; /* Ajout pour un peu d'espace autour des liens des sous-menus */
+}
+
+.explications {
+  width: 60%; /* Largeur de la boîte */
+  position: relative; top: -25px;
+  margin: 0 auto; /* Centrer la boîte horizontalement */
+  background-color: rgb(51, 51, 51, 0.8);
+  padding: 20px; /* Espace à l'intérieur de la boîte */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Ombre légère */
+  color: rgb(255, 255, 255); /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  font-size: 30px;
+}
+
+#bandeau {
+  overflow: hidden; /* Masque les images qui dépassent */
+  position: relative; top: 10px; left: 50px;
+  width: 1700px;
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Ombre légère */
+  background-color: rgb(51, 51, 51, 0.8);
+  padding: 10px;
+}
+
+.bandeau-images {
+  white-space: nowrap; /* Empêche le retour à la ligne des images */
+}
+
+.bandeau-images img {
+  max-height: 400px; /* Ajustez la hauteur des images selon vos besoins */
+  margin-right: 20px; /* Espace entre les images */
+}
