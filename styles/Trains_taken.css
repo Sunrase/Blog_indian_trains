@@ -2,6 +2,7 @@ body {
   background-image: url("../images/darjeeling_train.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100%;
   margin: 0; /* Ajout pour enlever la marge par défaut du body */
   padding: 0; /* Ajout pour enlever le padding par défaut du body */
 }
@@ -26,8 +27,8 @@ header {
 
 #menu {
   text-align: left; /* Centrer le menu */
-  margin-top: 20px; /* Ajout pour un peu d'espace entre le titre et le menu */
-  margin-left: 50px;
+  margin-top: 1%; /* Ajout pour un peu d'espace entre le titre et le menu */
+  margin-left: 4%;
 }
 
 #menu ul {
@@ -89,7 +90,8 @@ header {
   font-size: 30px;
 }
 
-#image {
+#image img {
+  width: 17%;
   position: absolute;
   left: 10px;
   top:500px;

@@ -2,6 +2,7 @@ body {
   background-image: url("../images/Indian_train2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100%;
   margin: 0; /* Ajout pour enlever la marge par défaut du body */
   padding: 0; /* Ajout pour enlever le padding par défaut du body */
 }
@@ -26,8 +27,8 @@ header {
 
 #menu {
   text-align: left; /* Centrer le menu */
-  margin-top: 20px; /* Ajout pour un peu d'espace entre le titre et le menu */
-  margin-left: 50px;
+  margin-top: 1%; /* Ajout pour un peu d'espace entre le titre et le menu */
+  margin-left: 4%;
 }
 
 #menu ul {
@@ -91,8 +92,8 @@ header {
 
 #bandeau {
   overflow: hidden; /* Masque les images qui dépassent */
-  position: relative; top: 10px; left: 50px;
-  width: 1700px;
+  position: relative; top: 60%; left: 50px;
+  width: 93%;
   border-radius: 10px; /* Coins arrondis */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Ombre légère */
   background-color: rgb(51, 51, 51, 0.8);
