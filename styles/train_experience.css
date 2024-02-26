@@ -1,8 +1,8 @@
 body {
   background-image: url("../images/HQ.png");
   background-repeat: no-repeat;
-  background-size: cover;
   background-size: 100%;
+  background-color: rgba(71, 70, 70, 0.8);
   margin: 0; /* Ajout pour enlever la marge par défaut du body */
   padding: 0; /* Ajout pour enlever le padding par défaut du body */
 }
@@ -90,3 +90,7 @@ header {
   font-size: 30px;
 }
 
+
+-webkit-backdrop-filter: blur(5px); /* assure la compatibilité avec safari */
+backdrop-filter: blur(5px);
+background-color: rgba(182, 182, 182, 0.2);

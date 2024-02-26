@@ -1,7 +1,7 @@
 body {
   background-image: url("../images/Indian_train2.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: rgba(71, 70, 70, 0.8);
   background-size: 100%;
   margin: 0; /* Ajout pour enlever la marge par défaut du body */
   padding: 0; /* Ajout pour enlever le padding par défaut du body */
